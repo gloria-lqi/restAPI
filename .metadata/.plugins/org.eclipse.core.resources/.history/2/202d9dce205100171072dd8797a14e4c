@@ -1,0 +1,6 @@
+package com.gloriali.rest.ws.repository;
+
+@RepositoryRestResource(path = "user", collectionResourceRel = "user")
+public interface  UserRepository extends MongoRepository<User,String> {
+  List<User> findByName(@Param("name") String name);
+}

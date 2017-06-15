@@ -1,0 +1,5 @@
+package com.gloriali.rest.ws.user;
+
+public class User {
+
+}

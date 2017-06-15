@@ -1,0 +1,5 @@
+package com.gloriali.rest.ws.repository;
+
+public class userRepository {
+
+}
